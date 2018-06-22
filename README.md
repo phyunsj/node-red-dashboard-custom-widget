@@ -1,8 +1,39 @@
 # node-red-custom-widget
 
-## UI Widget : Table With Embedded Line Chart - D3
+Based on [Creating your own UI widget for a Node-RED dashboard using an external charting library](http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget-ii-using-external-charts/), create ui-widget with external source [Table With Embedded Line Chart - D3 Example](http://bl.ocks.org/llimllib/841dd138e429bb0545df)
 
-Node-RED-Dashboard `ui-template` Porting. Source : http://bl.ocks.org/llimllib/841dd138e429bb0545df 
+## `ui-template`
+
+```
+<!-- external libraries -->
+<script src="http://d3js.org/d3.v3.min.js"></script> 
+<link rel="stylesheet" href="http://billmill.org/css/style.css" /> 
+<style>
+ ...
+</style>
+;(function(scope) {
+
+  scope.msgReady = ... // ng-if 
+  
+  var timer = setInterval(function() { //check that D3 libs are loaded, if not wait
+    if (!window.d3) return;
+    clearInterval(timer);
+   
+    scope.$watch('msg', function (msg) {
+    if (msg) {
+        
+        d3.select("#datatable").selectAll("*").remove();  //  Clear   
+        var rows = msg.payload;
+        ...
+        d3.select // 
+        
+     } // if (msg) 
+    }); // scope.$watch()
+    
+ }, 3000); // close out the setInterval 
+           // 3 secs for spinner demo
+})(scope);
+```
 
 ## In Action 
 
