@@ -11,6 +11,7 @@ Based on [Creating your own UI widget for a Node-RED dashboard using an external
 <style>
  ...
 </style>
+<script>
 ;(function(scope) {
 
   scope.msgReady = ... // ng-if 
@@ -33,6 +34,7 @@ Based on [Creating your own UI widget for a Node-RED dashboard using an external
  }, 3000); // close out the setInterval 
            // 3 secs for spinner demo
 })(scope);
+</script>
 ```
 
 ## In Action 
