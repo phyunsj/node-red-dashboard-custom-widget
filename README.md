@@ -2,7 +2,7 @@
 
 Based on [Creating your own UI widget for a Node-RED dashboard using an external charting library](http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget-ii-using-external-charts/), create ui-widget with external source [Table With Embedded Line Chart - D3 Example](http://bl.ocks.org/llimllib/841dd138e429bb0545df)
 
-## `ui-template`
+## `ui-template` code snippet
 
 ```
 <!-- external libraries -->
