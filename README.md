@@ -2,7 +2,7 @@
 
 ## UI Widget : Table With Embedded Line Chart - D3
 
-Source : http://bl.ocks.org/llimllib/841dd138e429bb0545df 
+node-RED-Dashboard `ui-template` Porting. Source : http://bl.ocks.org/llimllib/841dd138e429bb0545df 
 
 ## In Action 
 
