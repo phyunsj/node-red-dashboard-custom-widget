@@ -61,6 +61,11 @@ http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget
 
 The original work : [Security Pin Dialog UI Template for Node-Red-Dashboard](https://flows.nodered.org/flow/7bcb0b049df4fa3c962294137ebaec19)
 
+Flow Changes : 
+- Lock Door -> Display a PIN dialog
+- Display a PIN dialog triggered if pin_error
+- Display a PIN dailog triggered if the session is expired
+
 ## In Action
 
 <p align="center">
