@@ -70,7 +70,7 @@ The original work : [Security Pin Dialog UI Template for Node-Red-Dashboard](htt
 ## Flow
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-widget/blob/master/modal_pin_dialog_session_timeout.gif" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-widget/blob/master/modal_pin_dialog_session_timeout.png" width="600px"/>
 </p>
 
 ```
