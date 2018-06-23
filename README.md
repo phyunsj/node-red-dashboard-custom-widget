@@ -63,8 +63,8 @@ The original work : [Security Pin Dialog UI Template for Node-Red-Dashboard](htt
 
 Flow Changes : 
 - Lock Door -> Display a PIN dialog
-- Display a PIN dialog triggered if pin_error
-- Display a PIN dailog triggered if the session is expired
+- Display a PIN dialog if pin_error
+- Display a PIN dialog if the session is expired
 
 ## In Action
 
