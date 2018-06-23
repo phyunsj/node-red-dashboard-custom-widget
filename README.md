@@ -59,7 +59,7 @@ http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget
 
 # node-red-custom-widget 2 : Modal PIN Dialog
 
-The original work : [Security Pin Dialog UI Template for Node-Red-Dashboard](https://flows.nodered.org/flow/7bcb0b049df4fa3c962294137ebaec19)
+The original work : [Security Pin Dialog UI Template for Node-Red-Dashboard](https://flows.nodered.org/flow/7bcb0b049df4fa3c962294137ebaec19) by [**Daniel Lando**](https://github.com/robertsLando?tab=repositories)
 
 Flow Changes : 
 - Lock Door -> Display a PIN dialog
