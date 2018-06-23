@@ -1,6 +1,6 @@
 # node-red-custom-widget
 
-Based on [Creating your own UI widget for a Node-RED dashboard using an external charting library](http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget-ii-using-external-charts/), create ui-widget with external source [Table With Embedded Line Chart - D3 Example](http://bl.ocks.org/llimllib/841dd138e429bb0545df)
+Follow [Creating your own UI widget for a Node-RED dashboard using an external charting library](http://noderedguide.com/tutorial-node-red-dashboards-creating-your-own-ui-widget-ii-using-external-charts/) guide, create ui-widget with external source [Table With Embedded Line Chart - D3 Example](http://bl.ocks.org/llimllib/841dd138e429bb0545df)
 
 ## `ui-template` code snippet
 
@@ -23,16 +23,16 @@ Based on [Creating your own UI widget for a Node-RED dashboard using an external
     scope.$watch('msg', function (msg) {
     if (msg) {
         
-        d3.select("#datatable").selectAll("*").remove();  //  Clear   
+        d3.select("#datatable").selectAll("*").remove();  //  Clear D3 nodes
         var rows = msg.payload;
         ...
-        d3.select // 
+        d3.select // D3 libs
+        ...
         
      } // if (msg) 
     }); // scope.$watch()
     
- }, 3000); // close out the setInterval 
-           // 3 secs for spinner demo
+ }, 3000); // setInterval:3 secs for spinner demo
 })(scope);
 </script>
 ```
