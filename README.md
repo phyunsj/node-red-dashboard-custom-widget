@@ -69,7 +69,7 @@ Flow Changes :
 ## In Action
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-widget/blob/master/modal_dailog_session_timeout.gif" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-widget/blob/master/modal_dailog_session_timeout.gif" width="500px"/>
 </p>
 
 ## Flow
